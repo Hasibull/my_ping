@@ -1,2 +1,2 @@
 # My ping
-_Mimicking Windows/Linux ping utility_
+**_Mimicking Windows/Linux ping utility_**
