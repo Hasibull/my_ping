@@ -12,7 +12,8 @@
 
 extern unsigned short calculate_checksum(void *b, int len);
 
-int my_ping(const char *ip_address) {
+int my_ping(const char *ip_address) 
+{
     int sockfd = socket(AF_INET, SOCK_RAW, IPPROTO_ICMP);
     struct sockaddr_in addr;
     char packet[64] = {0};
