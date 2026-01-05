@@ -1,3 +1,4 @@
 *.py
 *.docs
 *.exe
+build/
