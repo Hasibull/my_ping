@@ -26,5 +26,7 @@ make
 mkdir build
 cd build
 cmake ..
+cmake --build . --config Release
+
 .\my_ping 8.8.8.8
 ```
