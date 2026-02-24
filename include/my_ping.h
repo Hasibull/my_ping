@@ -7,6 +7,9 @@
 
 #include <stdint.h>
 
+#define MY_PING_FAILED      -1
+#define MY_PING_SUCCESS     0
+
 #pragma pack(push, 1)
 typedef struct {
     uint8_t  type;
@@ -17,6 +20,6 @@ typedef struct {
 } icmp_hdr_t;
 #pragma pack(pop)
 
-int my_ping(const char *ip_address);
+int ping(const char *ip_address);
 
 #endif
